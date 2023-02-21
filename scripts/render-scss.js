@@ -66,8 +66,8 @@ function renderSCSSFile(sourceFile,destPathFile) {
 
 };
 
+// sb-admin-styles.scss
+const sbAdminStyleSrc = upath.resolve(upath.dirname(__filename), '../src/scss/sb-admin-styles.scss');
+const sbAdminStyleDest =upath.resolve(upath.dirname(__filename), '../dist/css/sb-admin-styles.css');
 
-const bootstrapSrcPath = upath.resolve(upath.dirname(__filename), '../src/scss/bootstrap.scss');
-const bootstrapDestPath = upath.resolve(upath.dirname(__filename), '../dist/css/bootstrap.css');
-
-renderSCSSFile(bootstrapSrcPath, bootstrapDestPath);
+renderSCSSFile(sbAdminStyleSrc, sbAdminStyleDest);

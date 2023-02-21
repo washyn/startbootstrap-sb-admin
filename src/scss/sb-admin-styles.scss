@@ -1,12 +1,14 @@
-// 
+//
 // Styles
-// 
+//
 
 // Import Custom Variables
 @import "variables.scss";
 
 // Import Bootstrap
-@import "bootstrap/scss/bootstrap.scss";
+// @import "bootstrap/scss/bootstrap.scss";
+@import "bootstrap/scss/mixins/breakpoints.scss";
+@import "bootstrap/scss/helpers/position.scss";
 
 // Import Custom SCSS
 @import "global.scss";
@@ -25,4 +27,4 @@
 @import "navigation/sidenav/sidenav-light.scss";
 
 // Plugins
-@import "plugins/simple-datatables.scss";
+// @import "plugins/simple-datatables.scss";
