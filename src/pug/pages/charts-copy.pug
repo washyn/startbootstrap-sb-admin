@@ -1,0 +1,13 @@
+extends ../layouts/dashboard.pug
+
+block config
+    - var bodyClass = 'sb-nav-fixed'
+    - var pageTitle = 'Charts'
+    - var sidenavStyle = 'sb-sidenav-dark'
+
+block content
+    .container-fluid.px-4
+        include includes/page-header.pug
+        .card.mb-4
+            .card-body.
+                Chart.js is a third party plugin that is used to generate the charts in this template. The charts below have been customized - for further customization options, please visit the official <a target='_blank' href='https://www.chartjs.org/docs/latest/'>Chart.js documentation</a>.
